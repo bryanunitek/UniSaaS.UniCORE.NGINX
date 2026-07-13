@@ -7,7 +7,7 @@
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 [![Community Forum](https://img.shields.io/badge/community-forum-009639?logo=discourse&link=https%3A%2F%2Fcommunity.nginx.org)](https://community.nginx.org)
 [![License](https://img.shields.io/badge/License-BSD%202--Clause-blue.svg)](/LICENSE)
-[![Code of Conduct](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](/CODE_OF_CONDUCT.md)
+[![Code of Conduct](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](https://git.unitek-systems.com/UniCORE/UniSaaS.UniCORE.Nginx/src/branch/main//CODE_OF_CONDUCT.md) (mirror: [GitHub](https://github.com/bryanunitek/UniSaaS.UniCORE.Nginx/blob/main//CODE_OF_CONDUCT.md))
 
 NGINX (pronounced "engine x" or "en-jin-eks") is the world's most popular Web Server, high performance Load Balancer, Reverse Proxy, API Gateway and Content Cache.
 
@@ -213,10 +213,10 @@ The output of which should start with:
 ```
 
 # Asking questions and reporting issues
-See our [Support](SUPPORT.md) guidelines for information on how discuss the codebase, ask troubleshooting questions, and report issues.
+See our [Support](https://git.unitek-systems.com/UniCORE/UniSaaS.UniCORE.Nginx/src/branch/main/SUPPORT.md) (mirror: [GitHub](https://github.com/bryanunitek/UniSaaS.UniCORE.Nginx/blob/main/SUPPORT.md)) guidelines for information on how discuss the codebase, ask troubleshooting questions, and report issues.
 
 # Contributing code
-Please see the [Contributing](CONTRIBUTING.md) guide for information on how to contribute code.
+Please see the [Contributing](https://git.unitek-systems.com/UniCORE/UniSaaS.UniCORE.Nginx/src/branch/main/CONTRIBUTING.md) (mirror: [GitHub](https://github.com/bryanunitek/UniSaaS.UniCORE.Nginx/blob/main/CONTRIBUTING.md)) guide for information on how to contribute code.
 
 # Additional help and resources
 - See the [NGINX Community Blog](https://blog.nginx.org/) for more tips, tricks and HOW-TOs related to NGINX and related projects.
