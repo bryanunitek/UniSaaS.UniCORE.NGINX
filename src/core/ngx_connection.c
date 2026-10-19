@@ -1142,7 +1142,9 @@ ngx_close_listening_sockets(ngx_cycle_t *cycle)
     for (i = 0; i < cycle->listening.nelts; i++) {
 
 #if (NGX_QUIC)
-        if (ls[i].quic) {
+        if (ls[i].quic
+            && (!ls[i].reuseport || !ngx_quic_bpf_enabled(cycle)))
+        {
             continue;
         }
 #endif
@@ -1164,6 +1166,10 @@ ngx_close_listening_sockets(ngx_cycle_t *cycle)
                 } else {
                     ngx_del_event(c->read, NGX_READ_EVENT, NGX_CLOSE_EVENT);
                 }
+            }
+
+            if (c->read->timer_set) {
+                ngx_del_timer(c->read);
             }
 
             ngx_free_connection(c);
